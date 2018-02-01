@@ -5,7 +5,7 @@ const PREFIX = "t!";
 
 bot.on("guildMemberAdd", function(member) {
     member.guild.channels.find("name", "welcome").send(member.toString() + ", **Welcome to Tempest Community!**\n*Make sure to read server rules and information.\n*Follow us on Twitter!\n<https://twitter.com/TeamTempest1944>*");
-    var role = member.guild.roles.find('name' , 'Community User');
+    var role = member.guild.roles.find('name' , 'Community_User');
     member.addRole(role)
     })
 
