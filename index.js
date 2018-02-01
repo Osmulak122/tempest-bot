@@ -24,7 +24,7 @@ bot.on("message", function(message) {
                 message.channel.send("**Quake** - https://goo.gl/F45Uxn");
                 break;
             case "help":
-                message.channel.send("***Here are the commands!***\n\n**owner**\n**twitter**");
+                message.channel.send("***Here are the commands!***\n\n**t!owner**\n**t!twitter**");
                 break;
             case "twitter":
                 message.channel.send("**Our Twitter!** <https://twitter.com/TeamTempest1944>");
